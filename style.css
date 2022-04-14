@@ -2,20 +2,45 @@
 * {
     box-sizing: border-box;
 }
-
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
+    background-color: #e8ffc1;
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 header, section {
+    background-color: #d7d7d7;
     padding: 20px;
 }
 p, li {
     line-height: 1.5em;
 }
 
-#inspiration {
-    background-color: #F0F0F0;
+#tutorials {
+    flex-grow: 3;
+    background-color: #c0edff;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px; }
+
+#homework {
+    flex-grow: 3;
+    background-color: #ceffc0;
+    padding-top: 40px;
+    padding-bottom: 80px; }
+
+    
+#inspiration {
+    flex-grow: 3;
+    background-color: #ecc1f6;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+  }
