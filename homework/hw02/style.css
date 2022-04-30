@@ -58,6 +58,29 @@ footer {
     grid-area: bottom;
 }
 
+aside .selected {
+    border-style: solid;
+    border-left-color: green;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+
+}
+
+main .selected {
+    border-style: solid;
+    border-top-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: green;
+}
+
+.player button {
+    background-color: black;
+    display: flex;
+    flex-direction: right;
+    width: 5%;
+}
 
 /***************************/
 /* Accessories & Florishes */
@@ -80,12 +103,10 @@ footer {
 /* Part A: Left Navigation */
 /***************************/
 
- .aside {
-    grid-area: a;
-    grid-row-gap: 30px;
-
- }
-
+aside a {
+    justify-content: space; 
+    padding: 4%;
+}
 
 
 /********************************/
@@ -94,7 +115,45 @@ footer {
 
 /* Your Code Here */
 
+main header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
 
+header a {
+    padding-inline: 8px;
+    justify-content: end;
+    margin: 10px;
+    border-radius: 35%;
+    /* How to make the borders smaller */
+}
+/* Space out nav profile bar */
+nav { 
+        display: flex; 
+        flex-direction: row;
+} 
+
+nav a {
+    padding: 10px; 
+}
+
+#upgrade {
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 1.5%;
+  }
+
+  #profile { 
+    border-style: solid;
+    border-color: black;
+    background-color: #383833;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 1.5%;
+}
 
 
 
@@ -104,7 +163,63 @@ footer {
 
 /* Your Code Here */
 
+img { 
+    width: 100%; 
+    height: 100%; 
+    border-radius: 100%;
+}
 
+
+.artist-card {
+    width: 14%;
+    background-color: #383833;
+    margin: 15px;
+    display: block;
+    border-radius: 9%;
+}
+
+.card-footer {
+    font-display: flex;
+    flex-wrap: wrap;
+}
+
+div { 
+    
+    display: flex;
+    flex-direction: column;
+    size: 10px;
+}
+
+.artist-card h2 {
+    font-size: smaller;
+}
+
+
+.card-footer { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer p { 
+    padding: 10%; 
+    justify-content: left;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  footer img {
+      width: 15%;
+      height: 20%;
+      border-radius: 0%;
+  }
 
 
 /**************************/
@@ -112,5 +227,18 @@ footer {
 /**************************/
 
 /* Your Code Here */
-
+@media (max-width: 1024px) {
+    .artist-card { 
+        width: 20%;
+    }
+}
+ 
+@media (max-width: 600px) {
+    .artist-card { 
+        width: 30%;
+    }
+    aside { 
+        display: none;
+    }
+       }
 
