@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- stylesheets and metadata go here -->
+        <title>Image Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/gallery.css">
+        <script type="text/javascript" src="js/index.js" defer></script>
+        <!-- NOTE: to comment do command forward slash -->
+    </head>
+    <body>
+        <!-- HTML content tags go here -->
+        <nav class="navbar">
+            <strong>Home</strong>
+            <a href="genres.html">Explore Genres</a>
+            <a href="generator.html">Playlist Generator</a>
+            <a href="randomizer.html">Feeling risky?</a>
+
+        </nav>
+         <h1>Welcome to our music library.</h1>
+        <p>Start by exploring some of our favorite music!</p>
+        <main>
+                    <!-- preview panel -->
+                    <section class="preview_box">
+                        <div class="featured_image" style="background-image:url('images/stranger.jpg')"></div>
+                        <button class="prev">&lsaquo;</button>
+                        <button class="next">&rsaquo;</button>
+                    </section>
+        
+                    <!-- thumbnails -->
+                    <ul class="cards"></ul>
+                </main>
+    </body>
+</html>
