@@ -28,6 +28,7 @@
 ];
 
 
+
 const initScreen = () => {
     images.forEach((image, idx) => {
         document.querySelector('.cards').innerHTML += `
@@ -54,7 +55,6 @@ const showImage = (ev) => {
 	  } else {
 		ind = ind+ 1;
 	  }
-	//console.log("mommy", ind);//debugging
 	document.querySelector(".featured_image").style.backgroundImage = `url(${images[ind]})`;
   };
 //function called ONCLICK for previous biutton
@@ -77,4 +77,5 @@ const showImage = (ev) => {
   ind = 0
   document.querySelector(".next").onclick = next;
   document.querySelector(".prev").onclick = previous;
-  document.querySelector(".featured_image").onclick = next;
+  // document.querySelector(".featured_image").onclick = next; 
+ 
