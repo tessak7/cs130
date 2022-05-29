@@ -19,24 +19,22 @@
  */
 
  const images = [
-    'images/stranger.jpg',
-    'images/lemonade.jpg',
-    'images/1989.jpg',
-    'images/tapestry.jpg',
-    'images/lover.jpg',
-    'images/blue.jpg',
+    {spotify_link: "google", image: "images/charts.png"},
+    {spotify_link: "google", image: "images/charts.png"},
+    {spotify_link: "google", image: "images/charts.png"},
+    {spotify_link: "google", image: "images/charts.png"},
+    {spotify_link: "google", image: "images/charts.png"},
 ];
 
 
-
-
 const initScreen = () => {
-    images.forEach((image, idx) => {
+    images.forEach((object.image, idx) => {
         document.querySelector('.cards').innerHTML += `
         <li class="card">
             <button class="image" 
-                style="background-image:url('${image}')"
-                data-index=${idx}"
+                style="background-image:url('${object.image}')"
+                data-link=${idx}" 
+                data-o
                 aria-label="Displays image ${idx} in the main panel."></button>
         </li>`;
     });
@@ -78,7 +76,9 @@ const showImage = (ev) => {
   ind = 0
   document.querySelector(".next").onclick = next;
   document.querySelector(".prev").onclick = previous;
-  document.querySelector(".featured_image").onclick=()=>
-  window.open("https://open.spotify.com/playlist/1KFCGO9erNqc80Mmp6cJuG?si=dc886885c456465c","_blank") ;
- 
- 
+  document.querySelector(".featured_image").onclick=(ev)=>
+  {const link = ev.datalink
+    window.open("https://open.spotify.com/playlist/1KFCGO9erNqc80Mmp6cJuG?si=dc886885c456465c","_blank")} ;
+
+
+   

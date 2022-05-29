@@ -5,7 +5,7 @@ body {
 
 .navbar {
     padding: 20px;
-    background-color: white;
+    background-color: rgb(240, 160, 160);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,13 +19,28 @@ body {
     margin-right: 15px;
 }
 
+.navbarn {
+    padding: 20px;
+    background-color: rgb(198, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255)
+}
+.navbarn a{
+    margin-right: 15px;
+}
+
+.navbarn strong {
+    margin-right: 15px;
+}
 body {
     height:100%;
     text-align: center;
     margin: 0;
     padding:0;
-    background-color: rgb(4, 52, 98);
-    color: white;
+    background-color: rgb(203, 227, 250);
+    color: rgb(0, 74, 144);
 }
 body * {
     box-sizing: border-box;
@@ -33,7 +48,7 @@ body * {
 }
 
 main {
-    background-color: rgb(4, 52, 98);
+    background-color: rgb(203, 227, 250);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 20vh;
