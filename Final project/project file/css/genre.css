@@ -2,6 +2,7 @@ body {
     font-family: Raleway;
     margin: 0;
     align-items: center;
+	justify-content: center;
 }
 
 .navbar {
@@ -37,7 +38,7 @@ body {
 }
 body {
     height:100%;
-    text-align: center;
+    align-content: center;
     margin: 0;
     padding:0;
     background-color: rgb(203, 227, 250);
@@ -51,6 +52,7 @@ body * {
 main {
     background-color: rgb(203, 227, 250);
     display: grid;
+    text-align: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto 20vh;
     grid-template-areas:
@@ -58,7 +60,11 @@ main {
       "bottom";
     height: 100vh;
     width: 100vw;
+	justify-content: center;
+	align-items: center;
+    
 }
+/* }
 #featured {
     grid-area: top;
 }
@@ -132,7 +138,7 @@ main {
     top: 35vh;
     right: 2vw;
 }
-
+ */
 
 
 
