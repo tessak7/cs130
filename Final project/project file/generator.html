@@ -1,24 +1,5 @@
 <!DOCTYPE html>
-<!-- <html lang="en">
-    <head>
-       
-        <title>Playlist Generator</title>  
-        <link rel="stylesheet" href="gallery.css"> 
-    </head>
-    <body>
-       
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="country.html">Explore Genres</a>
-            <strong>Playlist Generator</strong>
-            
-        </nav>        
-        <main> 
-           
-          
-        </main>
-    </body>
-</html> -->
+<html lang="en">
 
 <head>
     <title>Playlist Generator</title>  
@@ -26,29 +7,30 @@
     <script type="text/javascript" src="js/generate.js" defer></script>
 </head>
 
+
 <body>
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="country.html">Explore Genres</a>
-        <strong>Playlist Generator</strong>
+        <strong>Explore Playlists</strong>
         
     </nav> 
-  <div class="container-fluid">
-    <div class="header">
-      <h1>Random Song Generator</h1>
-    </div>
-    
-    <div class="body">
-      <div class = "main">
-      <div class ="song" >
-        <iframe id = "sonG" src=""></iframe>
-      </div>
-      
- 
-      </div>
-      <div class="button">
-        <button onclick="GetSong()">RANDOMIZE SONGS</button>
-     </div>
-  </div>
+    <center><h3>Listen when you want to...</h3> </center>
+    <center><header>
+      <button type="button" class="btn1" id="btn1" onclick="playSleepy()">Sleep</button>
+      <button type="button" class="btn2" id="btn2" onclick="playStudy()">Study</button>
+      <button type="button" class="btn3" id="btn3" onclick="playParty()">Party</button>
+      <button type="button" class="btn4" id="btn4" onclick="playWorkout()">Exercise</button>
+      <button type="button" class="btn5" id="btn5" onclick="playSad()">Cry</button>
+      <button type="button" class="btn6" id="btn6" onclick="playMoodBooster()">A Little Mood Booster</button>
+      <button type="button" class="btn7" id="btn7" onclick="playDate()">Fall in Love</button>
+      <button type="button" class="btn8" id="btn8" onclick="playShower()">Sing in the Shower</button>
+    </header></center>
+  <br>
+  <center><p>Play this playlist when you want some music to fall asleep to</p></center>
+ <center><iframe id="playlist-demo" src="https://open.spotify.com/embed/playlist/35xI4hSJ8MdO1xkXwsd56a" width="1000" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe></center>
+</body>
 
-  </html> 
+</html> 
+
+  
