@@ -1,65 +1,47 @@
-.header{
-    text-align: center;
-    
-  }
-  .main{
-    display:block;
-  
-  }
-  .song{
-    height: 300px;
-    width: 33%;
-    float: left;
-    border: solid 1px;
-    margin-left: 5%;
-  }
-  
-  .lyrics{
-    height: 300px;
-    width: 33%;
-    float: right;
-    border: solid 1px;
-    margin-right: 5%;
-    
-  }
-  .button{
-    display: block;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 44%;
-  }
-  
-  button{
-    border-radius: 10px;
-    padding: 20px 25px;
-    margin-right: 5px;
-    background-color: green;
-    color: yellow;
-    font-size: 20px;
-    
-  }
-  
-  .row{
-    margin-top: 15px;
-    padding-left: 15px;
-  }
-  
-  h1, h3{
-    text-shadow: 2px 2px orange; 
-    color: darkblue;
-  }
-  
-  ::-webkit-scrollbar 
-  {
-      width: 40px;
-      background-color:#4F4F4F;
-  }
-  
-  ::-webkit-scrollbar-button:vertical:increment 
-  {
-      height:40px;
-      background-image: url(/Images/Scrollbar/decrement.png);
-      background-size:39px 30px;
-      background-repeat:no-repeat;
-  }
-  
+
+.btn1 {
+  background-color: pink;
+  color: blue;
+}
+
+body{
+  background-color: green;
+}
+
+
+
+/* body {
+  font-family: Raleway;
+  margin: 0;
+  align-items: center;
+justify-content: center;
+}
+.navbar {
+  padding: 20px;
+  background-color: rgb(240, 160, 160);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(38, 0, 144)
+}
+.navbar a{
+  margin-right: 15px;
+}
+
+.navbar strong {
+  margin-right: 15px;
+}
+
+body {
+  height:100%;
+  text-align: center;
+  margin: 0;
+  padding:0;
+  background-color: rgb(90, 29, 133);
+  color: rgb(39, 101, 159);
+};
+
+.button {
+  background-color: aqua;
+} */
+

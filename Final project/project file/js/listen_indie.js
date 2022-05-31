@@ -58,7 +58,7 @@ const tracks = [
       "id": "3MMLO6TUL07tze9IXud0Vc",
       "name": "Honey",
       "preview_url": "https://p.scdn.co/mp3-preview/bd31b546b7ad17b7f49f06507c7d7afb951aee28?cid=162b7dc01f3a4a2ca32ed3cec83d1e02&amp;utm_medium=facebook",
-      "image_url": "https://i.scdn.co/image/ab67616d0000b273249e7e07a7e0100ebb8bfc11"
+      "image_url": "https://i.scdn.co/image/ab67616d0000b273249e7e07a7e0100ebb8bfc11" 
     },
     {
       "id": "57RA3JGafJm5zRtKJiKPIm",
