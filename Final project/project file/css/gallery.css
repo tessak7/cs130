@@ -4,14 +4,19 @@ body {
     align-items: center;
 }
 
+nav{
+    width: 100%;
+}
 .navbar {
     padding: 20px;
-    background-color: rgb(240, 160, 160);
+    background-color: rgb(255, 254, 255);
     display: flex;
     align-items: center;
     justify-content: center;
-    color:rgb(0, 74, 144)
+    color:rgb(0, 74, 144);
+    font-size: medium;
 }
+
 .navbar a{
     margin-right: 15px;
 }
@@ -22,7 +27,7 @@ body {
 
 .navbarn {
     padding: 20px;
-    background-color: rgb(198, 255, 255);
+    background-color: rgb(81, 142, 255);
     display: flex;
     align-items: center;
     justify-content: center;

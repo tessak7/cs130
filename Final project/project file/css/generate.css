@@ -1,20 +1,20 @@
-
-.btn1 {
-  background-color: rgb(71, 49, 151);
-  color: rgb(253, 253, 253);
-}
-
 body{
-  background-color: rgb(225, 198, 252);
+  background-color: rgb(203, 227, 250);
+  font-family: Raleway, sans-serif;
+  font-size: larger;
 }
 
+nav{
+  width: 100%;
+}
 .navbar {
   padding: 20px;
-  background-color: rgb(75, 38, 99);
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
-  color:rgb(38, 0, 144)
+  color:rgb(0, 74, 144);
+  font-size:medium;
 }
 
 .navbar a{
@@ -25,7 +25,46 @@ body{
   margin-right: 15px;
 }
 
+.navbarn {
+  padding: 20px;
+  background-color: rgb(181, 207, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(255, 255, 255)
+}
+.navbarn a{
+  margin-right: 15px;
+}
 
+.navbarn strong {
+  margin-right: 15px;
+}
+
+.btn1{
+  background-color: rgb(234, 237, 167);
+}
+.btn2{
+  background-color: rgb(181, 193, 127);
+}
+.btn3{
+  background-color: rgb(134, 146, 255);
+}
+.btn4{
+  background-color: rgb(249, 186, 255);
+}
+.btn5{
+  background-color: rgb(252, 122, 122);
+}
+.btn6{
+  background-color: rgb(255, 200, 83);
+}
+.btn7{
+  background-color: rgb(223, 255, 155);
+}
+.btn8{
+  background-color: rgb(68, 242, 161);
+}
 
 /* body {
   font-family: Raleway;
@@ -33,6 +72,8 @@ body{
   align-items: center;
 justify-content: center;
 }
+/*
+
 .navbar {
   padding: 20px;
   background-color: rgb(240, 160, 160);

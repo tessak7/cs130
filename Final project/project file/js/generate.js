@@ -16,7 +16,7 @@ const playParty = (ev) => {
 
 const playWorkout = (ev) => {
   document.querySelector('#playlist-demo').src = "https://open.spotify.com/embed/playlist/37i9dQZF1DWUSyphfcc6aL";
-  document.querySelector('p').innerHTML = 'Play this playlist when you for that extra push during your workout';
+  document.querySelector('p').innerHTML = 'Play this playlist for that extra push during your workout';
 };
 
 const playSad = (ev) => {

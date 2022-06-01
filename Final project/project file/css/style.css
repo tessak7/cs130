@@ -3,15 +3,20 @@
 * {
     box-sizing: border-box;
 }
-
+nav{
+    width: 100%;
+    font-family: Raleway
+}
 .navbar {
     padding: 20px;
-    background-color: rgb(212, 173, 235);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     color:rgb(0, 74, 144);
+    font-size: medium;
 }
+
 .navbar a{
     margin-right: 15px;
 }
@@ -22,11 +27,11 @@
 
 .navbarn {
     padding: 20px;
-    background-color: rgb(81, 142, 255);
+    background-color: rgb(203, 227, 250);
     display: flex;
     align-items: center;
     justify-content: center;
-    color:rgb(255, 255, 255)
+    color:rgb(0, 74, 144)
 }
 .navbarn a{
     margin-right: 15px;
@@ -39,10 +44,10 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 10px 0px 20px;
-    background: #F0F0F0;
+    background: rgb(203, 227, 250);
 }
 header {
-    background-color: #ffd256;
+    background-color: rgb(0, 74, 144);
     /* background-color: #F1F3F4; */
     position:fixed;
     width: 100%;
@@ -57,7 +62,7 @@ header {
 
 h1 {
     color: white;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2.5em;
     text-shadow: 1px 1px 1px #888;
 }
