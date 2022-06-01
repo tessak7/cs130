@@ -1,11 +1,28 @@
 
 .btn1 {
-  background-color: pink;
-  color: blue;
+  background-color: rgb(71, 49, 151);
+  color: rgb(253, 253, 253);
 }
 
 body{
-  background-color: green;
+  background-color: rgb(225, 198, 252);
+}
+
+.navbar {
+  padding: 20px;
+  background-color: rgb(75, 38, 99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(38, 0, 144)
+}
+
+.navbar a{
+  margin-right: 15px;
+}
+
+.navbar strong {
+  margin-right: 15px;
 }
 
 
