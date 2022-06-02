@@ -3,7 +3,7 @@ const tracks = [
       "id": "34bqWuFJ4X1A3vCObPSNHD",
       "name": "As She's Walking Away",
       "preview_url": "https://p.scdn.co/mp3-preview/0acebc7094b62de9c38ece383f748ce76530332d?cid=162b7dc01f3a4a2ca32ed3cec83d1e02&utm_medium=facebook",
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/0/00/Assheswalkingaway.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/0/00/Assheswalkingaway.jpg" 
     },
     {
       "id": "2QfX9Pdz3q66fN3kCXl0Js",
@@ -78,7 +78,7 @@ let index = 0;
 for(const track of tracks){
   const template = `
   <div data-index="${index}" onclick="playSong(event);">
-        <img src="${track.image_url}" />
+        <img src="${track.image_url}" alt="${`Album art for ${track.name}`}"/>
         <h2>${track.name}</h2>
     </div>`;
     index += 1;

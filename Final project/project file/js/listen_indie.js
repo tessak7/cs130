@@ -79,7 +79,7 @@ let index = 0;
 for(const track of tracks){
   const template = `
   <div data-index="${index}" onclick="playSong(event);">
-        <img src="${track.image_url}" />
+        <img src="${track.image_url}" alt="${`Album art for ${track.name}`}"/> 
         <h2>${track.name}</h2>
     </div>`;
     index += 1;
